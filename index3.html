@@ -1,0 +1,38 @@
+<html>
+
+<head>
+	<title>Calculator</title>
+	<script>
+		function Render()
+		{	
+			var num1 = Number(frmMain.numbers.value);
+			var num2 = Number (frmMain.numbers2.value);
+			var opr = frmMain.operator.value;
+			var my = parseFloat(num1)/parseFloat(num2)
+			if(opr==='+')
+			alert(`The addition of ${num1} and ${num2} is ${num1 + num2}`);
+			else if(opr==='-')
+			alert(`The Subtraction of ${num1} and ${num2} is ${num1 - num2}`);
+			else if(opr==='/')
+			alert(`The Division of ${num1} and ${num2} is ${my.toFixed(2)}`);
+			else if(opr==='/')
+			alert(`The Multiplication of ${num1} and ${num2} is ${num1 * num2}`);
+			else if(opr==='%')
+			alert(`The Remainder of ${num1} and ${num2} is ${num1 % num2}`);
+			else
+			alert(`please enter valid operator`);
+		}	
+				</script>
+</head>
+
+<body>
+
+<form name='frmMain'>
+	<label> Operator: </br></label><input type="string" name="operator" /></br>
+	<label> 1st Number: </br></label><input type="Float" name="numbers" /></br>
+	<label> 2nd Number: </br></label><input type="Float" name="numbers2" /></br>
+	<input style='background-color: brown' type="submit" onclick="Render()" />
+	</form>
+</body>
+
+</html>

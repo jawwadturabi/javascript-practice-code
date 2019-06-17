@@ -1,0 +1,39 @@
+<html>
+
+<head>
+    <title>
+        Lab work
+    </title>
+
+</head>
+
+<body>
+    <script src="th.js">
+        </script>
+        <script>
+        document.write("Marksheet <br/>")
+        var arrSub = new Array;
+        var arrNum = new Array;
+        var noOfStudent = parseInt(prompt('Enter the No of Student : '))
+                for (var i = 0; i < noOfStudent; i++) {
+                    var noOfSubject = parseInt(prompt('Enter the No of Subject : '))
+
+            for (var j = 0; j < noOfSubject; j++) {
+                arrSub[j] = prompt(`Enter the Name of Course ${j + 1}`)
+            }
+            // alert(arrSub)
+            for (var k = 0; k < noOfSubject; k++) {
+                arrNum[k] = prompt(`Enter the Marks Obtained in ${arrSub[k]}`)
+            }
+            for (var l = 0; l < noOfSubject; l++) {
+                document.write(`<br/>In ${arrSub[l]} you got ${arrNum[l]}<br/>`)
+            }
+            
+                        // document.write(`In ${arrSub[1]} you got ${arrNum[1]}`)
+
+        }
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,67 @@
+*{
+    background-color: aqua;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{
+    background-color: slategray;
+}
+p{
+    margin: 1px;
+}
+p.zero{
+    background-color: rgb(238,62,128);
+    background-color: hsl(0, 80%, 78%)
+}
+p.one{
+    background-color: rgb(238,62,128);
+    background-color: hsl(0, 70%, 78%)
+}
+p.two{
+    background-color: rgb(238,62,128);
+    background-color: hsl(0, 60%, 78%)
+}
+p.three{
+    background-color: rgb(238,62,128);
+    background-color: hsl(0, 50%, 78%)
+}
+p.four{
+    background-color: rgb(238,62,128);
+    background-color: hsl(0, 40%, 78%)
+}
+p.five{
+    background-color: rgb(238,62,128);
+    background-color: hsl(0, 30%, 78%)
+}
+p.six{
+    background-color: rgb(238,62,128);
+    background-color: hsl(0, 20%, 78%)
+}
+p.seven{
+    background-color: rgb(238,62,128);
+    background-color: hsl(0, 10%, 78%)
+}
+p.eight{
+    background-color: rgb(0, 150, 200);
+
+}
+p.nine{
+    background-color: rgb(0, 140, 210);
+    
+}
+p.ten{
+    background-color: rgb(0, 120, 230);
+    
+}
+p.eleven{
+    background-color: rgb(0, 110, 240);
+    
+}
+p.twelve{
+    background-color: rgb(0, 100, 250);
+    
+}
+p.thirteen{
+    background-color: rgb(0, 80, 187);
+    
+}
